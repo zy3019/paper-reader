@@ -8,7 +8,7 @@
 
 ![示例页面：左栏是高亮的英文原文和中文译文，右栏是逐段批注](docs/screenshot.jpg)
 
-示例：克隆后用浏览器打开 `output/demo-ethics-of-belief.html`（Clifford《The Ethics of Belief》节选，1877 年，公版）。
+**在线演示**：<https://zy3019.github.io/paper-reader/output/demo-ethics-of-belief.html>（Clifford《The Ethics of Belief》节选，1877 年，公版）。克隆后也可以直接用浏览器打开 `output/demo-ethics-of-belief.html`。
 
 ## 怎么用
 
@@ -72,6 +72,7 @@ python build.py notes/xxx.md --source notes/xxx.source.txt
 | `extract.py` | PDF → 文本。 |
 | `CLAUDE.md` / `AGENTS.md` / `.claude/skills/annotate-paper/` | Claude Code 和 Codex 的入口，都指向 `GUIDE.md`。 |
 | `notes/demo-ethics-of-belief.md` | 示例批注稿。 |
+| `index.html` / `.nojekyll` | 只给 GitHub Pages 用：打开站点根地址时跳到示例页。 |
 
 ## 说明
 
