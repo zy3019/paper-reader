@@ -72,7 +72,7 @@ python build.py notes/xxx.md --source notes/xxx.source.txt
 | `extract.py` | PDF → 文本。 |
 | `CLAUDE.md` / `AGENTS.md` / `.claude/skills/annotate-paper/` | Claude Code 和 Codex 的入口，都指向 `GUIDE.md`。 |
 | `notes/demo-ethics-of-belief.md` | 示例批注稿。 |
-| `index.html` / `.nojekyll` | 只给 GitHub Pages 用：打开站点根地址时跳到示例页。 |
+| `index.html` / `.github/workflows/pages.yml` | 只给 GitHub Pages 用：每次推送到 `main` 时把示例页部署成在线演示，站点根地址跳到示例页。 |
 
 ## 说明
 
